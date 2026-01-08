@@ -1,7 +1,7 @@
 const express = require('express');
-// const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
+// const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -17,8 +17,7 @@ const portalUsers = {
         name : 'Nikhil', 
         role : 'Student', 
         password : '123'
-    }, 
-
+    },
     "Kishore" : {
         ID : 2,
         name : 'Kishore', 
