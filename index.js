@@ -79,7 +79,8 @@ app.get('/students-attendence', authenticateFaculty, (req, res) => {
     const students = {
         'Nikhil' : '90%',
         'Akhil' : '85%',
-        'Rahul' : '48%'
+        'Rahul' : '48%',
+        'Kiran' : '0%'
     }
     res.status(200).send({
         data: students, 
